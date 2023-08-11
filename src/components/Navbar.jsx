@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className="w-full flex py-6 px-8 justify-between items-center navbar">
+        <nav className="w-full flex py-6 justify-between items-center navbar">
             <img src={reactLogo} alt="logo" />
 
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">

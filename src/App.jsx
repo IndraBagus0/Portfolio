@@ -1,23 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 const App = () => {
   return (
     <div className="font-Poppins px-7">
       <Navbar />
       <Hero />
-
-
-      {/* About Section */}
-      <section id="about" className=" py-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">About</h2>
-          <p className="text-lg text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, optio atque. Id quo facilis sed perferendis ducimus expedita recusandae, voluptatum sapiente sequi, assumenda repellendus distinctio saepe consectetur deserunt doloribus totam.
-          </p>
-        </div>
-      </section>
+      <About />
       {/* Skills Section */}
       <section id="skills" className=" py-10">
         <div className="max-w-6xl mx-auto">
