@@ -8,7 +8,7 @@ const About = () => {
                 <div className="lg:w-1/3 lg:pr-10 flex justify-center items-center xs:mb-6">
                     <img
                         src={react}
-                        alt="Your Photo"
+                        alt="Profil Photo"
                         className="rounded-full w-48 h-48  mx-auto lg:mx-0"
                     />
                 </div>

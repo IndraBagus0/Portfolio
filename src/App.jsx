@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 const App = () => {
   return (
@@ -10,9 +11,12 @@ const App = () => {
       <Hero />
       <About />
       {/* Skills Section */}
-      <section id="skills" className=" py-10">
+      <Skills />
+
+      {/* Serivice Section */}
+      <section id="services" className=" py-10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Skills</h2>
+          <h2 className="text-3xl font-bold mb-4">Serivice</h2>
           <p className="text-lg text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit in voluptatum pariatur est magni asperiores, mollitia a animi incidunt nam delectus, modi aliquid necessitatibus quaerat? Excepturi hic doloremque ex iste repellat consequatur, tempore labore omnis totam iusto eius quae! Consectetur laborum nulla iure mollitia pariatur tempora sint quas? Odit inventore molestias, rerum earum impedit saepe aspernatur nisi totam a laborum ullam non. Distinctio mollitia quaerat neque! A dolore aspernatur vero cum libero labore esse animi quae quaerat itaque, aliquam non nihil, quo officiis. Commodi, vero esse praesentium sit adipisci delectus sequi officiis, suscipit quae odio fugit, accusamus ex numquam amet cupiditate? Nostrum inventore fuga ut nulla quos accusamus consequatur quam neque nobis, dolorem aliquam omnis sunt, deserunt magnam quia quaerat hic placeat ratione, consectetur sapiente ipsam quidem animi dolor? Optio maxime pariatur aliquam. Repudiandae, placeat iste pariatur rem ipsam animi laudantium ducimus atque veniam dolores totam facilis porro quidem ut laboriosam autem recusandae dolore? Dolores aspernatur perspiciatis aliquam dicta doloribus odit modi nisi commodi consequatur quis. Dolor perspiciatis nulla soluta ipsa ex est dolores ipsum nam? Et adipisci iste, tempore voluptatum temporibus quibusdam recusandae tempora minima! Enim quibusdam, vel, et molestiae quos vero quod dicta iste atque provident totam sunt eligendi est praesentium qui repellendus soluta illum rem veniam ut ipsa quae error. Deleniti amet nam quidem sit voluptatum repellendus, inventore placeat assumenda minima quia labore! Suscipit quia possimus illum eveniet, in atque expedita, voluptatem fugit laboriosam sit, error totam minima? Laudantium ratione autem sint fuga harum id impedit rerum necessitatibus voluptas expedita quaerat at deleniti commodi aliquid nemo officia quae recusandae sed nesciunt, dolore voluptates beatae esse. Assumenda sapiente atque dolorem labore ipsam excepturi eveniet dolorum laborum! Sint voluptatem asperiores eveniet quasi unde rem necessitatibus quod optio veniam qui inventore cum perspiciatis perferendis a fuga adipisci, temporibus iste eligendi.
           </p>

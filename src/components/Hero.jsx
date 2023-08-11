@@ -55,8 +55,8 @@ const Hero = () => {
                         </span>
                         <span className="text-lg md:text-xl">I'm a Fullstack Website Developer</span>
                         <div className="mt-8 md:mt-12">
-                            <a href="#contact" className="bg-blue-500 text-white font-medium px-4 py-2 rounded-full hover:bg-blue-600 text-sm md:text-xl">
-                                Hire Me
+                            <a href="#services" className="bg-blue-500 text-white font-medium xs:tracking-wide md:tracking-normal px-4 py-2 rounded-full hover:bg-blue-600 text-sm md:text-xl">
+                                My Services
                             </a>
                         </div>
                     </div>
